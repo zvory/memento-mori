@@ -27,18 +27,24 @@ body {
   position: relative;
   padding: 0;
   list-style-type: none;
+  margin: 0 auto;
+
 }
 
 /* WEEKS */
 .weeks {
-  width: 100%; /*12px per week * 52weeks = 624px */
-  height: 50%; /*12px per week * 52weeks = 624px */
+  max-width: 1000px; /*12px per week * 52weeks = 624px */
 }
 .weeks > li {
   border: 1px solid black;
   width: 1.282051282%; /* 8px/624px */
-  padding-bottom: .961538462%; /* 6px/624px */
-  margin: .320512821%; /* 2px/624px */
+  padding-bottom: .60vh; /* 6px/624px */
+  /* margin: .320512821%; 2px/624px */
+  margin-top: .1vh;
+  margin-bottom: .2vh;
+  margin-right: .320512821%;
+  margin-left: .320512821%;
+
   float: left;
 }
 
