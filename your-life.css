@@ -31,7 +31,7 @@ body {
 
 /* WEEKS */
 .weeks {
-  width: 90%; /*12px per week * 52weeks = 624px */
+  width: 100%; /*12px per week * 52weeks = 624px */
   height: 50%; /*12px per week * 52weeks = 624px */
 }
 .weeks > li {
